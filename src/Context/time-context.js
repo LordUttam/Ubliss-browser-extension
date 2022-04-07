@@ -11,20 +11,14 @@ const stdTime = newTime.toLocaleTimeString("en-GB");
 function changePhase() {
   if (5 <= Number(stdTime.slice(0, 2)) && Number(stdTime.slice(0, 2)) < 12) {
     return "morning";
-  } else if (
-    12 <= Number(stdTime.slice(0, 2)) &&
-    Number(stdTime.slice(0, 2)) < 17
-  ) {
+  }
+  if (12 <= Number(stdTime.slice(0, 2)) && Number(stdTime.slice(0, 2)) < 17) {
     return "afternoon";
-  } else if (
-    17 <= Number(stdTime.slice(0, 2)) &&
-    Number(stdTime.slice(0, 2)) < 20
-  ) {
+  }
+  if (17 <= Number(stdTime.slice(0, 2)) && Number(stdTime.slice(0, 2)) < 20) {
     return "evening";
-  } else if (
-    20 <= Number(stdTime.slice(0, 2)) ||
-    Number(stdTime.slice(0, 2)) < 5
-  ) {
+  }
+  if (20 <= Number(stdTime.slice(0, 2)) || Number(stdTime.slice(0, 2)) < 5) {
     return "night";
   }
 }

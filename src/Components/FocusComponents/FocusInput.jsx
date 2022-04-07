@@ -2,12 +2,10 @@ import { useState } from "react";
 
 function FocusInput(props) {
   const [focus, setFocus] = useState("");
-  // const setFocusStored = props.focusStoredFunc;
 
   function storeFocus(e) {
     if (e.key === "Enter") {
       localStorage.setItem("focus-of-day", focus);
-      // setFocusStored(focus);
     }
   }
 

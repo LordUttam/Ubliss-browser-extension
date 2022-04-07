@@ -12,7 +12,6 @@ function Weather() {
   const { phaseOfDay } = useTime();
 
   function getLocation() {
-    // const userLocation = JSON.parse(localStorage.getItem("user_location"));
     if (userLocation === null) {
       if ("geolocation" in navigator) {
         return new Promise((resolve, reject) => {
@@ -35,7 +34,7 @@ function Weather() {
           );
         });
       } else {
-        console.log("Geolocation API not available :(");
+        console.error("Geolocation API not available :(");
       }
     }
     return userLocation;
