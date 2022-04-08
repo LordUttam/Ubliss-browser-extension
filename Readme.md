@@ -2,26 +2,18 @@
 
 Give your day a main focus and work towards your goal. This is a new tab extension for chrome where you set your main focus for the day, get notified about weather and a simple clock.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Try it out
+[ADD TO CHROME](https://chrome.google.com/webstore/detail/ubliss-browser-extension/aagegbgghgpidfkjhkepojajcnjbcamf/)
+"Not so soon [I want to try it out first](https://ubliss-chrome-extension.netlify.app/)"
 
-## Available Scripts
+# Gallery
 
-In the project directory, you can run:
+## Onboarding
+![image](https://user-images.githubusercontent.com/47154785/162476565-48940091-070d-40c1-8129-adc760e909ff.png)
 
-### `npm start`
+## Adding a Focus
+![image](https://user-images.githubusercontent.com/47154785/162476842-1cd6d5e7-d640-42c8-93d5-4c4ba70f24c4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completing the Focus
+![image](https://user-images.githubusercontent.com/47154785/162477016-4bfdbdc3-fa1f-4b24-8ccb-a5aff073f496.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
