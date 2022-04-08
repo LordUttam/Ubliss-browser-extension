@@ -4,6 +4,7 @@ Give your day a main focus and work towards your goal. This is a new tab extensi
 
 # Try it out
 [ADD TO CHROME](https://chrome.google.com/webstore/detail/ubliss-browser-extension/aagegbgghgpidfkjhkepojajcnjbcamf/)
+
 "Not so soon [I want to try it out first](https://ubliss-chrome-extension.netlify.app/)"
 
 # Gallery
